@@ -1,8 +1,10 @@
 ## Together, the functions makeCacheMatrix and cacheSolve
-## compute the inverse of a matrix, if it has already been
-## calculated, the result is retreived from the cache.
+## would cache the inverse of a matrix, verify if 
+## the inverse of the matrix has already been calculated and,
+## in that case, retrieve the result from the cache.
 
-## makeCacheMatrix creates a special “matrix” object that can cache its inverse
+## makeCacheMatrix creates a special “matrix” object
+## that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
